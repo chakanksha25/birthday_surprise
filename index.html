@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>A Little Something For You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ================= FLOATING PARTICLES ================= -->
+
+    <div id="particles"></div>
+
+
+    <!-- ================= PAGE 1 ================= -->
+
+    <section id="page1" class="page active">
+
+        <div class="opening">
+
+            <div class="tiny-stars">
+                ✦ ✧ ✦
+            </div>
+
+            <p class="small-text">
+                I made something special for you...
+            </p>
+
+            <h1>
+                Before you go...<br>
+                Open this ❤️
+            </h1>
+
+            <p class="opening-line">
+                A little collection of memories,<br>
+                wishes and feelings.
+            </p>
+
+            <button id="openBtn">
+                Begin the Journey ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 2 ================= -->
+
+    <section id="page2" class="page">
+
+        <div class="content reveal-card">
+
+            <div class="envelope">
+                💌
+            </div>
+
+            <p class="chapter">
+                CHAPTER ONE
+            </p>
+
+            <h1>
+                A Day Worth Celebrating 🎂
+            </h1>
+
+            <p>
+                Today isn't just another day...
+            </p>
+
+            <p>
+                It's the day someone very special
+                came into this world. ❤️
+            </p>
+
+            <button onclick="nextPage(3)">
+                Continue ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 3 ================= -->
+
+    <section id="page3" class="page">
+
+        <div class="content memories">
+
+            <p class="chapter">
+                CHAPTER TWO
+            </p>
+
+            <h1>
+                Little Moments 📸
+            </h1>
+
+            <p class="subtitle">
+                Some moments don't need a reason to be special.
+            </p>
+
+
+            <div class="polaroid-grid">
+
+                <div class="polaroid p1">
+
+                    <img
+                        src="photos/photo1.jpeg"
+                        alt="Memory 1"
+                    >
+
+                    <span>
+                        That smile ❤️
+                    </span>
+
+                </div>
+
+
+                <div class="polaroid p2">
+
+                    <img
+                        src="photos/photo2.jpeg"
+                        alt="Memory 2"
+                    >
+
+                    <span>
+                        Good times ✨
+                    </span>
+
+                </div>
+
+
+                <div class="polaroid p3">
+
+                    <img
+                        src="photos/photo3.jpeg"
+                        alt="Memory 3"
+                    >
+
+                    <span>
+                        Crazy days 😂
+                    </span>
+
+                </div>
+
+
+                <div class="polaroid p4">
+
+                    <img
+                        src="photos/photo4.jpeg"
+                        alt="Memory 4"
+                    >
+
+                    <span>
+                        Beautiful memories
+                    </span>
+
+                </div>
+
+
+                <div class="polaroid p5">
+
+                    <img
+                        src="photos/photo5.jpeg"
+                        alt="Memory 5"
+                    >
+
+                    <span>
+                        Just us ❤️
+                    </span>
+
+                </div>
+
+
+                <div class="polaroid p6">
+
+                    <img
+                        src="photos/photo6.jpeg"
+                        alt="Memory 6"
+                    >
+
+                    <span>
+                        Forever memorable
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <button onclick="nextPage(4)">
+                There's More ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 4 ================= -->
+
+    <section id="page4" class="page">
+
+        <div class="content memories second-memory">
+
+            <p class="chapter">
+                CHAPTER THREE
+            </p>
+
+            <h1>
+                And Then... More Memories 💕
+            </h1>
+
+
+            <div class="memory-strip">
+
+                <img
+                    src="photos/photo7.jpeg"
+                    alt="Memory 7"
+                >
+
+                <img
+                    src="photos/photo8.jpeg"
+                    alt="Memory 8"
+                >
+
+                <img
+                    src="photos/photo9.jpeg"
+                    alt="Memory 9"
+                >
+
+            </div>
+
+
+            <p class="memory-text">
+
+                Looking back, it's funny how the
+                smallest moments become the ones
+                we remember the most. ❤️
+
+            </p>
+
+
+            <button onclick="nextPage(5)">
+                One Last Thing 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 5 ================= -->
+
+    <section id="page5" class="page">
+
+        <div class="letter">
+
+            <div class="letter-icon">
+                📝
+            </div>
+
+            <p class="chapter">
+                CHAPTER FOUR
+            </p>
+
+            <h1>
+                A Few Words For You
+            </h1>
+
+
+            <div id="typewriter">
+
+You are not just a friend to me.
+You are one of the most special people
+I found during my college life.
+
+Every little moment we shared,
+our conversations, our laughs,
+and even the simplest moments
+have become some of my favorite memories. ❤️
+
+I genuinely wish that you always stay happy,
+achieve everything you dream of,
+and always have reasons to smile.
+
+No matter where life takes us,
+I hope our friendship always stays beautiful.
+
+Thank you for being such a special part
+of my college life. ❤️
+
+            </div>
+
+
+            <!-- LETTER SIGNATURE -->
+
+            <p class="letter-signature">
+                Made with ❤️ just for you
+            </p>
+
+
+            <button onclick="nextPage(6)">
+                Read One Last Message ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PAGE 6 ================= -->
+
+    <section id="page6" class="page final-page">
+
+        <div class="final">
+
+            <div class="final-stars">
+                ✦ ✧ ✦ ✧ ✦
+            </div>
+
+            <p class="chapter">
+                ONE LAST THING
+            </p>
+
+            <h1>
+                Some people become memories...
+            </h1>
+
+            <h2>
+                but a few become a constant. ❤️
+            </h2>
+
+            <div class="final-heart">
+                ❤️
+            </div>
+
+            <h3>
+                Happy Birthday, Constant 🎂❤️
+            </h3>
+
+            <p class="final-message">
+                May your life always be filled with
+                happiness, love and beautiful moments.
+            </p>
+
+            <p class="final-small">
+                Always stay the same beautiful person. ✨
+            </p>
+
+            <div class="made-with">
+                Made with ❤️ & memories
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PHOTO POPUP ================= -->
+
+    <div
+        id="photoPopup"
+        class="photo-popup"
+    >
+
+        <span id="closePopup">
+            &times;
+        </span>
+
+        <img
+            id="popupImage"
+            src=""
+            alt="Memory"
+        >
+
+        <p>
+            One beautiful memory ❤️
+        </p>
+
+    </div>
+
+
+    <!-- ================= SONG ================= -->
+
+    <audio
+        id="birthdaySong"
+        src="nadive.mp3"
+    ></audio>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
